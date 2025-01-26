@@ -336,14 +336,18 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socmedia-link {
-  display: flex;
+.team-socmedia-link {
+   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
 }
 
-.team-socmedia-item:hover,
-.team-socmedia-item:focus {
+.team-socmedia-link:hover,
+.team-socmedia-link:focus {
   background-color: #404bbf;
 }
 
@@ -439,7 +443,7 @@ a {
 .container.footer-container {
   display: flex;
   align-content: center;
-    align-items: baseline;
+  align-items: baseline;
 }
 
 .footer-info {
@@ -501,7 +505,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #4d5ae5;
   fill: #f4f4fd;
   border-radius: 50%;
   text-align: center;
@@ -510,12 +513,17 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-socmedia-item:hover,
-.footer-socmedia-item:focus {
-  background-color: #31d0aa;
-}
-
-.socmedia-icon {
+.footer-socmedia-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
   width: 100%;
   height: 100%;
+  background-color: #4d5ae5;
+}
+
+.footer-socmedia-link:hover,
+.footer-socmedia-link:focus {
+  background-color: #31d0aa;
 }
